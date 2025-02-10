@@ -1,4 +1,4 @@
-# Mobile_robot_with_camera_Raspberry-Pi
+# Mobile_robot_with_camera_Raspberry-Pi (university project)
 Robot avoids obstacles using CNN model and USB-camera
 
 Convolutional neural network model (using TensorFlow framework) for recognizing 2 classes of images, 70 in each, and apply it to the task of recognizing and detouring obstacles by a robot. The accuracy of the neural network on the test data set was 93.1%.
