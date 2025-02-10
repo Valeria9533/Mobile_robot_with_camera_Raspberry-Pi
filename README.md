@@ -1,11 +1,7 @@
 # Mobile_robot_with_camera_Raspberry-Pi
 Robot avoids obstacles using CNN model and USB-camera
 
-My university project
-
-/*------------------------------------------------------------*/
-
-As a result, I made a convolutional neural network model (using TensorFlow framework) for recognizing 2 classes of images, 70 in each, and apply it to the task of recognizing and detouring obstacles by a robot. The accuracy of the neural network on the test data set was 93.1%.
+Convolutional neural network model (using TensorFlow framework) for recognizing 2 classes of images, 70 in each, and apply it to the task of recognizing and detouring obstacles by a robot. The accuracy of the neural network on the test data set was 93.1%.
 A PC was used to process neural network data, and a robot was used to control Raspberry Pi (due to lack of memory and an outdated version of the TensorFlow on
 Raspberry Pi). 
 TCP/IP protocol was used for data exchange between PC and Raspberry, and to access Raspberry from a PC (to run the program that controls the robot) SSH protocol
